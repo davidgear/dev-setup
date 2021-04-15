@@ -7,20 +7,17 @@ brew install mas
 #Install git
 brew install git
 
-#Install Homebrew cask
-brew cask
-
 #Install tools
 brew install nvm
 
 #Install browsers
-brew cask install google-chrome
+brew install --cask google-chrome
 
 #Install dev tools
-brew cask install visual-studio-code
-brew cask install intellij-idea
-brew cask install textmate
+brew install --cask visual-studio-code
+brew install --cask intellij-idea
+brew install --cask textmate
 
 #Install messaging apps
-brew cask install whatsapp
-brew cask install telegram
+brew install --cask whatsapp
+brew install --cask telegram
